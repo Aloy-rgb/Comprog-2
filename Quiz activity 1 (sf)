@@ -1,0 +1,83 @@
+x = 0
+print ("What is the chemical symbol for water?")
+a = input(f"A:Wo \nB:Wa \nC:H₂O \nD:HO₂ \nEnter: ")
+if a.lower() == "c" or a.lower() == "H2O":
+    print("CORRECT!")
+    x = x + 1
+else:
+    print("Incorrect")
+
+print("Which of the following is the largest planet in our solar system?")
+b = input(f"A:Mars \nB:Saturn \nC:Jupiter \nD:Neptune\nEnter:")
+if b.lower() == "c" or b.lower() == "Jupiter":
+    print("Correct!")
+    x = x + 1
+else:
+    print("Incorrect!")
+
+print("Who painted the Mona Lisa?")
+c = input("a) Vincent van Gogh \nb) Leonardo da Vinci \nc) Pablo Picassod \nd) Claude Monet \nEnter:")
+if c.lower() == "b" or c.lower() == "Leonardo" or c.lower() == "Leonardo da Vinci":
+    print("Correct!")
+    x = x + 1
+else:
+    print("Incorrect!")
+
+print(f"What is the capital city of Japan?")
+d = input(f"a) Seoul \nb) Beijing \nc) Tokyo \nd) Bangkok \nEnter:")
+if d.lower() == "c" or d.lower() == "tokyo":
+    print("Correct!")
+    x = x + 1
+else:
+    print("Incorrect!")
+
+print(f"What is the currency of the United Kingdom?")
+e = input(f"a) Euro\nb) Dollar\nc) Pound Sterling\nd) Yen\nEnter:")
+if e.lower() == "c" or e.lower() == "Pound sterling":
+    print("Correct!")
+    x = x + 1
+else:
+    print("Incorrect!")
+
+print('Which animal is known as the "King of the Jungle"?')
+ff = input("a) Elephant\nb) Tiger\nc) Lion\nd) Bear\nEnter:")
+if ff.lower() == "C" or ff.lower() == "Lion":
+    print("Correct!")
+    x = x + 1
+else:
+    print("Incorrect!")
+
+print("What is the boiling point of water at standard atmospheric pressure?")
+g = input("a) 0°C\nb) 50°C\nc) 100°C\nd) 212°C\nEnter:")
+if g.lower() == "c" or g.lower() == "100":
+    print("Correct!")
+    x = x + 1
+else:
+    print("Incorrect!")
+
+print('Which continent is known as the "Land Down Under"?')
+h = input("a) Africa\nb) South America\nc) Australia\nd) Antarctica\nEnter:")
+if h.lower() == "C" or h.lower() == "astralia":
+    print("Correct!")
+    x = x + 1
+else:
+    print("Incorrect!")
+
+print("What is the name of the Earth's natural satellite?")
+i = input("a) Titan\nb) Europa\nc) Moon\nd) Ganymede\nEnter:")
+if i.lower() == "c" or i.lower() == "Moon":
+    print("Correct!")
+    x = x + 1
+else:
+    print("Incorrect!")
+
+print("What is the value of pi (π) to two decimal places?")
+j = input("a) 3.16\nb) 3.14\nc) 3.20\nd) 3.00\nEnter:")
+if j.lower() == "b" or j.lower() == "3.14":
+    print("Correct!")
+    x = x + 1
+else:
+    print("Incorrect!")
+
+score = float ( x / 10) *  100
+print(x,"Out of 10, that is", score, "%")
